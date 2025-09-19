@@ -1,0 +1,16 @@
+package com.example.demo.exception.model;
+
+
+public enum ErrorCode {
+    USER_NOT_FOUND,
+    CATEGORY_NOT_FOUND,
+    USER_ALREADY_EXISTS,
+    CATEGORY_ALREADY_EXISTS,
+    SLUG_NOT_FOUND,
+    SLUG_ALREADY_EXISTS,
+    EMAIL_ALREADY_EXISTS,
+    VALIDATION_FAILED,
+    ACCESS_DENIED,
+    UNAUTHORIZED
+}
+
