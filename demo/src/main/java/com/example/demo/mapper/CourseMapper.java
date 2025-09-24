@@ -50,7 +50,6 @@ public class CourseMapper {
 
         return Course.builder ()
 
-                .title(dto.title() != null ? dto.title ().replaceAll  ( "\\s+" , " " ).trim ( ) : null)
                 .description(dto.description() != null ? dto.description().trim() : null)
                 .shortDescription(dto.shortDescription() != null ? dto.shortDescription().trim() : null)
                 .duration(dto.duration())
